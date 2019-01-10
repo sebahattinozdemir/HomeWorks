@@ -1,0 +1,13 @@
+digraph CengBook
+{
+  graph [label="CengBook\nNumber of users = 2" , labelloc=t] ;
+
+  node  [shape=ellipse , fontcolor=black , color=red , penwidth=2.0] ;
+
+  edge  [color=blue , penwidth=2.0] ;
+
+  sebo [label="sebo\n1 Friend(s)\n0 Follower(s)"] ;
+  ahmet [label="ahmet\n0 Friend(s)\n1 Follower(s)"] ;
+
+  sebo -> ahmet ;
+}
